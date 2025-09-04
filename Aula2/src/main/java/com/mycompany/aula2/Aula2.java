@@ -12,13 +12,11 @@ public class Aula2 {
 
     public static void main(String[] args) {
         
-        Pessoa eu = new Pessoa();
-        //eu.nome = "Henrique";
+       Metodo3 eu = new Metodo3();
+       eu.mostrarNome("Ryan");
         
-        System.out.println(eu.nome);
-        System.out.println("Idade: " + eu.idade);
-        System.out.println("Sexo: " + eu.sexo);
-        System.out.println("Estado Civil: " + eu.estadoCivil);
-        System.out.println("Hobby: " + eu.hobby);
+        
+       int idade = eu.calcularIdade(2025, 2008);
+       System.out.println("Minha idade é " +idade);
     }
 }
