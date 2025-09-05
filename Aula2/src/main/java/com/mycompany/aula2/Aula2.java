@@ -11,12 +11,8 @@ package com.mycompany.aula2;
 public class Aula2 {
 
     public static void main(String[] args) {
-        
-       Metodo3 eu = new Metodo3();
-       eu.mostrarNome("Ryan");
-        
-        
-       int idade = eu.calcularIdade(2025, 2008);
-       System.out.println("Minha idade é " +idade);
+       construtor eu = new construtor("Mindiski", 17);
+       System.out.println(eu.nome);
+       System.out.println(eu.idade);
     }
 }

@@ -8,11 +8,12 @@ package com.mycompany.aula2;
  *
  * @author aluno
  */
-public class Pessoa {
+public class construtor {
+    String nome;
+    int idade;
     
-    String nome = "Carlos";
-    int idade =17;
-    char sexo = 'M';
-    String estadoCivil = "Solteiro";
-    String hobby = "Escutar músicas";
+    construtor(String n, int i){
+        nome = n;
+        idade = i;
+    }
 }

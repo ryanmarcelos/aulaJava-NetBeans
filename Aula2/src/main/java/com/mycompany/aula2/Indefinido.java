@@ -8,11 +8,12 @@ package com.mycompany.aula2;
  *
  * @author aluno
  */
-public class Pessoa {
-    
-    String nome = "Carlos";
-    int idade =17;
-    char sexo = 'M';
-    String estadoCivil = "Solteiro";
-    String hobby = "Escutar músicas";
+public class Indefinido {
+    int somarNumeros(int ... numeros){
+        int soma = 0;
+        for(int n : numeros){
+            soma += n;
+        }
+        return soma;
+    }
 }
