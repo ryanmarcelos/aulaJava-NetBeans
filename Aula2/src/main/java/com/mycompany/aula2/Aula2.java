@@ -11,8 +11,17 @@ package com.mycompany.aula2;
 public class Aula2 {
 
     public static void main(String[] args) {
-       construtor eu = new construtor("Mindiski", 17);
-       System.out.println(eu.nome);
-       System.out.println(eu.idade);
+       SalaDeAula.professor = "Edson";
+       SalaDeAula.ensinar();
+       
+       SalaDeAula a1 = new SalaDeAula();
+       a1.aluno = "Ryan";
+       System.out.println(a1.professor);
+       
+       SalaDeAula a2 = new SalaDeAula();
+       a2.aluno = "Mindiski";
+       System.out.println(a2.professor);
+       
+       
     }
 }

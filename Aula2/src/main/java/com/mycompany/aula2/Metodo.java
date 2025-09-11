@@ -12,6 +12,7 @@ public class Metodo {
     String nome;
     
     void dormir(){
-        System.out.println("ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZz");
+        System.out.printf("ZZzzZZzzZ");
     }
+    
 }

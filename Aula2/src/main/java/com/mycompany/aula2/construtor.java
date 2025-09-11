@@ -11,9 +11,12 @@ package com.mycompany.aula2;
 public class construtor {
     String nome;
     int idade;
-    
+   
     construtor(String n, int i){
         nome = n;
         idade = i;
+    }
+    construtor(){
+       
     }
 }

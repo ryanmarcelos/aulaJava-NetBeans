@@ -7,17 +7,16 @@ package com.mycompany.aula2;
 /**
  *
  * @author aluno
- * Sem retorno e com parametro
+ * 
  */
+//Metodo sem retorno comparamentro 
 public class Metodo3 {
-    
     void mostrarNome(String nome){
         System.out.println("Nome é "+nome);
-    }
-    
-//com retorno e com parametro
-    
-    int calcularIdade(int atual, int nascimento){
+    }    
+    int  calcularIdade(int atual, int nascimento){
         return atual-nascimento;
-    }
+        
+  }
+    
 }

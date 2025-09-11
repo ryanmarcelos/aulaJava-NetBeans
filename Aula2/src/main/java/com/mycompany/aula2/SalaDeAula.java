@@ -8,6 +8,12 @@ package com.mycompany.aula2;
  *
  * @author aluno
  */
-public class Pessoa {
-    String nome = "Carlos";
+public class SalaDeAula {
+    String aluno;
+    static String professor;
+    
+    static void ensinar(){
+    System.out.println(professor+ " Ensinando");
+    
+    }   
 }

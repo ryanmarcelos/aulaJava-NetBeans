@@ -9,10 +9,12 @@ package com.mycompany.aula2;
  * @author aluno
  * Metodo com retorno
  */
+//
 public class Metodo2 {
-    String nome = "Ryan";
+    String nome = "Carlos";
     
     String apresentar(){
-        return "Prazer, meu nome é " +nome;
+        return "Prazer, meu nome é "+nome;
     }
+    
 }

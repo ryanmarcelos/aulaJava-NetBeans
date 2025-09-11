@@ -8,6 +8,10 @@ package com.mycompany.aula2;
  *
  * @author aluno
  */
-public class Pessoa {
-    String nome = "Carlos";
+public class UsoDoThis {
+    String nome;
+    UsoDoThis(String nome){
+        
+    this.nome = nome;
+    }
 }
