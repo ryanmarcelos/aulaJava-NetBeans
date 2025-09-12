@@ -8,20 +8,19 @@ package com.mycompany.aula2;
  *
  * @author aluno
  */
+import java.util.Scanner;
+import Animal.Gato;
 public class Aula2 {
 
     public static void main(String[] args) {
-       SalaDeAula.professor = "Edson";
-       SalaDeAula.ensinar();
        
-       SalaDeAula a1 = new SalaDeAula();
-       a1.aluno = "Ryan";
-       System.out.println(a1.professor);
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Qual seu nome? ");
+        String palavra = entrada.nextLine();
+       System.out.println("Qual sua idade? ");
+       int numero = entrada.nextInt();
        
-       SalaDeAula a2 = new SalaDeAula();
-       a2.aluno = "Mindiski";
-       System.out.println(a2.professor);
-       
-       
+       System.out.println("Seu nome é " + palavra + " e sua idade é " + numero);
+       entrada.close();
     }
 }
