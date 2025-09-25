@@ -1,0 +1,43 @@
+public class Feitos {
+
+   public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+                System.out.println("*****Calculadora*****");
+                System.out.println("Digite o primeiro número:");
+                double num1 = scanner.nextDouble();
+                
+                System.out.println("Digite o segundo número:");
+                double num2 = scanner.nextDouble();
+                
+                System.out.println("Escolha qual operação matemática quer realizar:");
+                System.out.println("1 - Soma (+)");
+                System.out.println("1 - Subtração (-)");
+                System.out.println("1 - Multiplicação (*)");
+                System.out.println("1 - Divisão (/)");
+                System.out.println("Opção");
+                int opcao = scanner.nextInt();
+                
+                double resultado = 0;
+                boolean valido = true;
+                
+                switch(opcao){
+                    
+                    case 1: resultado = num1 + num2; break;
+                    case 2: resultado = num1 - num2; break;
+                    case 3: resultado = num1 * num2; break;
+                    case 4: if(num2 != 0){
+                        resultado = num1 / num2;
+                    }else{
+                        System.out.println("Erro! Divisão por zero não é permitida.");
+                    valido = false;
+                    }
+                    break;
+                    default:
+                        System.out.println("Opção inválida");
+                        valido = false;
+    }
+                if (valido){
+                    System.out.println("Resultado " + resultado);
+                }
+                scanner.close();
+   }
