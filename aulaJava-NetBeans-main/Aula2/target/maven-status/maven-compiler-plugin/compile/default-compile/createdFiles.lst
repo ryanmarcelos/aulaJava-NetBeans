@@ -1,6 +1,7 @@
 com\mycompany\aula2\construtor.class
 com\mycompany\aula2\Metodo.class
 com\mycompany\aula2\UsoDoThis.class
+TextoJanela\Label.class
 com\mycompany\aula2\Aula2.class
 com\mycompany\aula2\Layout.class
 com\mycompany\aula2\indefinido.class
@@ -8,6 +9,8 @@ Animal\Gato.class
 com\mycompany\aula2\Metodo2.class
 com\mycompany\aula2\Metodo3.class
 com\mycompany\aula2\SalaDeAula.class
+CaixadeTexto\CaixaDeTexto.class
 com\mycompany\aula2\Botao.class
 com\mycompany\aula2\Pessoa.class
 Calculadora\calcular.class
+Cores\cores.class
